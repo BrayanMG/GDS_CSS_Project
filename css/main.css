@@ -1,0 +1,33 @@
+.container{
+    margin: 1em auto 0 auto;
+    width: 55em;
+}
+
+.header{
+    margin: 0 auto 2em auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+.header img{
+    margin: 0 auto 0 auto;
+    display: block;
+    width: 10em;
+    height: auto;
+}
+
+.introduction{
+    margin-bottom: 5em;
+}
+
+.introduction p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.introduction img{
+    margin: 0 auto 0 auto;
+    display: block;
+    width: 20em;
+    height: auto;
+}
