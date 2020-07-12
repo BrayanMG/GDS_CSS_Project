@@ -1,33 +1,213 @@
-.container{
-    margin: 1em auto 0 auto;
-    width: 55em;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.header{
-    margin: 0 auto 2em auto;
+html,
+body {
+    background-color: #fff;
+    color: #3b5998;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-weight: 200;
     font-size: 20px;
-    text-align: center;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
-.header img{
-    margin: 0 auto 0 auto;
-    display: block;
-    width: 10em;
-    height: auto;
+h1 {
+    font-weight: 100;
+    font-size: 300%;
 }
+
+h2,
+h3 {
+    text-align: center;
+    font-weight: 4 00;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+/* ----- HEADER ------ */
+/* ------------------------------------------------------------------------------------------------------ */
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.692),rgba(255, 255, 255, 0.842)),url(/images/beach.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.catch-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* --------------------------------------- */
+/* ----- NAV BAR ------ */
+/* --------------------------------------- */
+
+.logo {
+    height: 90px;
+    width: auto;
+    float: left;
+    margin-left: 20px;
+}
+
+.main-nav {
+    list-style: none;
+    float: right;
+    margin-top: 45px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-right: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    border: 2px solid transparent;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    text-decoration: none;
+    color: #3b5998;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #3b5998;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+/* ----- STICKY NAV ------ */
+/* ------------------------------------------------------------------------------------------------------ */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.801);
+    box-shadow: 0 2px 2px #e8e8e8;
+    z-index: 9999;
+}
+
+.sticky .main-nav{
+    padding: 16px 0 0 0;
+    color: #555;
+    margin-top: 18px;
+}
+
+/* --------------------------------------- */
+/* ----- LINKS ------ */
+/* --------------------------------------- */
+
+a:link,
+a:visited {
+    color: #3b5998;
+    text-decoration: none;
+    font-size: 100%;
+    border-bottom: 2px solid transparent;
+}
+
+a:hover,
+a:active {
+    color: #3b5998;
+    border-bottom: 2px solid #3b5998;
+}
+
+/* --------------------------------------- */
+/* ----- BUTTONS ------ */
+/* --------------------------------------- */
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 200;
+    text-decoration: none;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+.full-btn:link,
+.full-btn:visited {
+    background-color: #3b5998;
+    color: #fff;
+    border: 1px solid #3b5998;
+    font-weight: 400;
+}
+
+.full-btn:hover,
+.full-btn:active {
+    background-color: #4a6db8;
+}
+
+.ghost-btn:link,
+.ghost-btn:visited {
+    border: 1px solid #3b5998;
+    font-weight: 400;
+}
+
+.ghost-btn:hover,
+.ghost-btn:active {
+    border: 1px solid #3b5998;
+    background-color: #3b5998;
+    color: #fff;
+    font-weight: 400;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+/* ----- Introduction ------ */
+/* ------------------------------------------------------------------------------------------------------ */
 
 .introduction{
-    margin-bottom: 5em;
+    margin: 10% 10% 10% 10%;
 }
 
 .introduction p{
-    font-size: 18px;
-    text-align: justify;
+    margin-top: 2%;
+    text-align: center;
+    line-height: 2em;
 }
 
-.introduction img{
-    margin: 0 auto 0 auto;
-    display: block;
-    width: 20em;
-    height: auto;
+.mission{
+    margin-bottom: 5%;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+/* ----- FOOTER ------ */
+/* ------------------------------------------------------------------------------------------------------ */
+
+footer {
+    margin-top: 50px;
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.foot {
+    float: left;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.foot-two {
+    float: right;
+    text-align: right;
 }
