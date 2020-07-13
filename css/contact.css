@@ -1,16 +1,244 @@
-
-body{
-    scroll behavior: smooth;
-    overflow-x: unset;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-footer{
-    text-align: left;
+html,
+body {
+    background-color: #fff;
+    color: #3b5998;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 300%;
+}
+
+h2,
+h3 {
+    text-align: center;
+    font-weight: 4 00;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+/* ----- HEADER ------ */
+/* ------------------------------------------------------------------------------------------------------ */
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.692),rgba(255, 255, 255, 0.842)),url(https://image.shutterstock.com/image-illustration/contact-us-page-concept-on-260nw-775433143.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+body{
+    text-align: center;
+    scroll-behavior: smooth;
+    overflow-x: unset;
+    text-decoration: none;
 }
 
 div.container{
     text-align: center;
+    height: 1500px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    overflow: hidden;
 }
+
+.form- btn-submit {
+    background: skyblue;
+    color: white;
+    border-style: outset;
+    border-color: skyblue;
+    height: 50px;
+    width: 100px;
+    font: bold 15px arial, sans-serif;
+    text-shadow: none;
+}
+
+/* --------------------------------------- */
+/* ----- NAV BAR ------ */
+/* --------------------------------------- */
+
+.logo {
+    height: 90px;
+    width: auto;
+    float: left;
+    margin-left: 20px;
+}
+
+.main-nav {
+    list-style: none;
+    float: right;
+    margin-top: 45px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-right: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    border: 2px solid transparent;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    text-decoration: none;
+    color: #3b5998;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #3b5998;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+/* ----- STICKY NAV ------ */
+/* ------------------------------------------------------------------------------------------------------ */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.801);
+    box-shadow: 0 2px 2px #e8e8e8;
+    z-index: 9999;
+}
+
+.sticky .main-nav{
+    padding: 16px 0 0 0;
+    color: #555;
+    margin-top: 18px;
+}
+
+/* --------------------------------------- */
+/* ----- LINKS ------ */
+/* --------------------------------------- */
+
+a:link,
+a:visited {
+    color: #3b5998;
+    text-decoration: none;
+    font-size: 100%;
+    border-bottom: 2px solid transparent;
+}
+
+a:hover,
+a:active {
+    color: #3b5998;
+    border-bottom: 2px solid #3b5998;
+}
+
+
+/* --------------------------------------- */
+/* ----- BUTTONS ------ */
+/* --------------------------------------- */
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 200;
+    text-decoration: none;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+.full-btn:link,
+.full-btn:visited {
+    background-color: #3b5998;
+    color: #fff;
+    border: 1px solid #3b5998;
+    font-weight: 400;
+}
+
+.full-btn:hover,
+.full-btn:active {
+    background-color: #4a6db8;
+}
+
+.ghost-btn:link,
+.ghost-btn:visited {
+    border: 1px solid #3b5998;
+    font-weight: 400;
+}
+
+.ghost-btn:hover,
+.ghost-btn:active {
+    border: 1px solid #3b5998;
+    background-color: #3b5998;
+    color: #fff;
+    font-weight: 400;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+/* ----- SECTION INTRO ------ */
+/* ------------------------------------------------------------------------------------------------------ */
+
+h1 {
+    font-weight: 100;
+    font-size: 300%;
+}
+
+.container {
+    width: 70%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.catch-box {
+    height: 5px;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+/* ----- FOOTER ------ */
+/* ------------------------------------------------------------------------------------------------------ */
+
+footer {
+    margin-top: 50px;
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.foot {
+    float: left;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.foot-two {
+    float: right;
+    text-align: right;
+}
+
+
+
 
 
 
