@@ -202,7 +202,6 @@ form .btn {
     border-color: #3b5998;
     height: 50px;
     width: auto;
-    font: bold 15px arial, sans-serif;
     text-shadow: none;
 
     display: block;
@@ -210,7 +209,7 @@ form .btn {
     margin-right: auto;
 }
 
-.row_body{
+.body{
     margin-top: 5%;
     margin-left: 2em;
     text-align: left;
