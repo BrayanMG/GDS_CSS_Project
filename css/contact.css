@@ -23,7 +23,7 @@ h1 {
 h2,
 h3 {
     text-align: center;
-    font-weight: 4 00;
+    font-weight: 400;
 }
 
 /* ------------------------------------------------------------------------------------------------------ */
@@ -36,38 +36,19 @@ h3 {
 }
 
 header {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.692),rgba(255, 255, 255, 0.842)),url(https://image.shutterstock.com/image-illustration/contact-us-page-concept-on-260nw-775433143.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.692),rgba(255, 255, 255, 0.842)),url(/images/contact_icons.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
     background-attachment: fixed;
 }
 
-body{
-    text-align: center;
-    scroll-behavior: smooth;
-    overflow-x: unset;
-    text-decoration: none;
-}
-
-div.container{
-    text-align: center;
-    height: 1500px;
-    border-style: solid;
-    border-width: 3px;
-    border-color: white;
-    overflow: hidden;
-}
-
-.form- btn-submit {
-    background: skyblue;
-    color: white;
-    border-style: outset;
-    border-color: skyblue;
-    height: 50px;
-    width: 100px;
-    font: bold 15px arial, sans-serif;
-    text-shadow: none;
+.catch-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* --------------------------------------- */
@@ -194,26 +175,45 @@ a:active {
 }
 
 /* ------------------------------------------------------------------------------------------------------ */
-/* ----- SECTION INTRO ------ */
+/* ----- CONTACT SECTION ------ */
 /* ------------------------------------------------------------------------------------------------------ */
 
-h1 {
-    font-weight: 100;
-    font-size: 300%;
-}
-
 .container {
-    width: 70%;
-    margin-top: 2%;
-    margin-bottom: 5%;
-    margin-left: 15%;
+    width: 40%;
+    height: auto;
+    margin: 5% auto 5% auto;
+
+    text-align: center;
     word-spacing: 2px;
     letter-spacing: 1px;
     font-weight: 300;
+
+    overflow: hidden;
+
+    scroll-behavior: smooth;
+    overflow-x: unset;
+    text-decoration: none;
 }
 
-.catch-box {
-    height: 5px;
+form .btn {
+    background: #3b5998;
+    color: white;
+    border-style: outset;
+    border-color: #3b5998;
+    height: 50px;
+    width: auto;
+    font: bold 15px arial, sans-serif;
+    text-shadow: none;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row_body{
+    margin-top: 5%;
+    margin-left: 2em;
+    text-align: left;
 }
 
 /* ------------------------------------------------------------------------------------------------------ */
