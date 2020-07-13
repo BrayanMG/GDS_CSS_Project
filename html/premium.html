@@ -4,22 +4,108 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Document</title>
+        <link rel="stylesheet" href="/vendors/Grid.css" type="text/css">
+        <link rel="stylesheet" href="/vendors/normalize.css" type="text/css">
+        <link rel="stylesheet" href="/vendors/ionicons.min.css" type="text/css">
+        <link rel="stylesheet" href="/css/premium.css" type="text/css">    
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,500;1,200&display=swap">
+        <title>Our Products</title>
     </head>
     <body>
         <header>
-            <img src="images/logo.png">
-            <nav>
-                <a href="/html/main.html">Home</a> |
-                <a href="/html/products.html">Products</a> |
-                <a href="/html/contact.html">Contact Us</a> |
-                <a href="/html/premium.html">Premium</a>
+            <nav class="sticky">
+                <div class="row">
+                    <img src="/images/logo.png" class="logo">
+                    <ul class="main-nav">
+                        <li><a href="/html/main.html">Home</a></li>
+                        <li><a href="/html/products.html">Products</a></li>
+                        <li><a href="/html/contact.html">Contact Us</a></li>
+                        <li><a href="/html/premium.html">Premium</a></li>
+                    </ul>  
+                </div>
             </nav>
+            <div class="row">
+                <div class="col span-1-of-2 line">
+                    <h1>Ready for <strong>PREMIUM</strong>?</h1>
+                    <a class="btn full-btn" href="#">Sign up!</a>
+                    <a class="btn ghost-btn" href="/html/premium.html">Tell me more</a>
+                </div>
+            </div>
         </header>
-        <h1>In order to access this feature you need to become a Friend Finder Premium member!</h1>
+        <section class="plans">
+            <div class="row">
+                <div class="brief">
+                    <h2>PREMIUM IS HERE!</h2>
+                    <p>Our plans are affordable! Select the best plan that suits you!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <div class="plan-box">
+                        <div>
+                            <h3>Premium Pro X</h3>
+                            <p class="plan-price">20$ <span>/ month</span></p>
+                        </div>
+                        <div>
+                            <ul>
+                                <ion-icon name="add"></ion-icon>
+                                <li><i class="ion-alert"></i>Daily fetish pictures from other Premium users</li>
+                                <li><i class="ion-alert icon-small"></i>FaceTime and Video Access</li>
+                                <li><i class="ion-android-checkbox-outline icon-small"></i>Unlimited messaging to all friends</li>
+                                <li><i class="ion-android-checkbox-outline icon-small"></i>Friend 24/7</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="#" class="btn full-btn">Sign Up Now!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col span-1-of-3">
+                    <div class="plan-box">
+                        <div>
+                            <h3>Premium</h3>
+                            <p class="plan-price">5$ <span>/ month</span></p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><i class="ion-android-checkbox-outline icon-small"></i>Weekly fetish pictures from other Premium users</li>
+                                <li><i class="ion-android-checkbox-outline icon-small"></i>No FaceTime / Video Access</li>
+                                <li><i class="ion-android-checkbox-outline icon-small"></i>500 messages / day</li>
+                                <li><i class="ion-android-checkbox-outline icon-small"></i>No Friend 24/7</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="#" class="btn ghost-btn">Sign Up Now!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col span-1-of-3">
+                    <div class="plan-box">
+                        <div>
+                            <h3>Basic</h3>
+                            <p class="plan-price">FREE!</p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><i class="ion-android-checkbox-outline icon-small"></i>No picture access</li>
+                                <li><i class="ion-android-checkbox-outline icon-small"></i>No FaceTime / Video Access</li>
+                                <li><i class="ion-android-close icon-small"></i>300 messages / day</li>
+                                <li><i class="ion-android-checkbox-outline icon-small"></i>No Friend 24/7</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="#" class="btn ghost-btn">Sign Up Now!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
 
         <footer>
             <p>&copy; 2020 POD6PRODUCTIONS</p>
         </footer>
+
     </body>
 </html>
